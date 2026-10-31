@@ -1,0 +1,96 @@
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Heba Glloria | فواتير التشطيب</title><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet"><script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js" defer></script><style>
+:root{--navy:#122a38;--navy2:#204553;--teal:#117d79;--mint:#eaf6f3;--muted:#748394;--border:#e0e8ed;--bg:#f5f7fa;--red:#b94848}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--navy);font:14px Cairo,Tahoma,Arial,sans-serif}button,input,select,textarea{font:inherit}button{cursor:pointer}.layout{display:grid;grid-template-columns:235px minmax(0,1fr);min-height:100vh}.sidebar{background:var(--navy);color:#e5f2f4;padding:29px 17px;display:flex;flex-direction:column;gap:11px}.brand{font-family:Georgia,serif;font-size:27px;letter-spacing:-.6px;font-weight:700;color:#fff;margin:0 8px 4px}.tag{font-size:10px;letter-spacing:1.4px;color:#afcbd0;margin:0 9px 20px}.nav{border:0;background:transparent;color:#c8dde1;padding:14px;border-radius:9px;text-align:right;font-weight:700}.nav.active,.nav:hover{background:var(--navy2);color:white}.hintSide{margin-top:auto;border:1px solid #46616a;padding:13px;border-radius:11px;color:#ccdbde;font-size:11px;line-height:2}.main{padding:30px min(3vw,44px);max-width:1500px;width:100%;margin:auto}.top{display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap;margin-bottom:22px}.eyebrow{font-size:11px;font-weight:800;letter-spacing:1px;color:var(--teal)}h1{font-size:25px;margin:5px 0}.sub{font-size:12px;color:var(--muted);line-height:2}.actions{display:flex;flex-wrap:wrap;gap:8px}.btn{border:1px solid var(--border);color:var(--navy);background:white;padding:10px 15px;border-radius:9px;font-weight:700}.btn.primary{background:var(--teal);color:white;border-color:var(--teal)}.btn.soft{background:var(--mint);color:#166c64;border-color:#ceebe4}.btn.danger{color:var(--red)}.btn.small{padding:6px 10px;font-size:12px}.btn:hover{filter:brightness(.96)}.notice{background:#fff9e8;border:1px solid #f0dfa9;color:#775e25;border-radius:11px;padding:12px 16px;font-size:12px;line-height:2;margin-bottom:17px}.card{background:white;border:1px solid var(--border);border-radius:15px;box-shadow:0 8px 25px #15384908}.meta{padding:20px;margin-bottom:17px}.metaGrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.field label{display:block;font-size:11px;color:#556777;font-weight:800;margin-bottom:6px}.field input,.field select,.field textarea{border:1px solid #dce5ea;border-radius:9px;background:white;padding:10px;width:100%;min-width:0;color:var(--navy);outline:0}.field input:focus,.field textarea:focus{border-color:var(--teal)}.metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-bottom:18px}.metric{padding:18px;border-right:4px solid #c6dee0}.metric:nth-child(2){border-right-color:#6cbda8}.metric:nth-child(3){border-right-color:#d7b16c}.metric:last-child{background:var(--navy2);color:white;border-right-color:#88cabd}.metric small{color:var(--muted);font-size:11px}.metric:last-child small{color:#d5e5e6}.metric strong{display:block;font-size:clamp(16px,2.1vw,25px);margin:9px 0 0;white-space:nowrap}.panel{margin-bottom:17px;overflow:hidden}.head{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;padding:20px;border-bottom:1px solid #edf1f4}.head h2{margin:0;font-size:17px}.head p{margin:5px 0 0;font-size:11px;color:var(--muted)}.panelBody{padding:20px}.rowForm{display:grid;grid-template-columns:minmax(170px,3fr) minmax(95px,1fr) minmax(100px,1fr) minmax(120px,1.5fr) auto;gap:10px;align-items:end}.rowForm.payment{grid-template-columns:minmax(170px,2fr) minmax(95px,1fr) minmax(100px,1fr) minmax(110px,1.5fr) auto}.tableWrap{overflow-x:auto}.table{border-collapse:collapse;width:100%;min-width:660px}.table th{background:#f8fafb;color:#6b8090;font-size:11px}.table th,.table td{text-align:right;padding:12px;border-bottom:1px solid #edf1f4}.table td{font-size:12px}.table .amount{font-weight:800;white-space:nowrap}.empty{padding:26px;color:#8497a3;text-align:center}.footerbar{padding:12px 20px;background:#fbfcfd;color:#708392;font-size:11px}.fee{display:flex;align-items:center;gap:15px;flex-wrap:wrap}.fee input[type=checkbox]{height:19px;width:19px;accent-color:var(--teal)}.fee .field{max-width:165px}.totals{display:grid;grid-template-columns:1fr 1fr;gap:12px}.totalrow{padding:12px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;gap:10px}.totalrow b{white-space:nowrap}.view{display:none}.view.active{display:block}.importZone{padding:25px;border:2px dashed #b9d7d4;border-radius:13px;background:#f8fcfb;text-align:center}.importZone input{max-width:100%;margin:12px auto}.importReview{overflow-x:auto;margin-top:16px}.review{width:100%;border-collapse:collapse;min-width:690px}.review th,.review td{padding:7px;border-bottom:1px solid var(--border);text-align:right;font-size:11px}.review input,.review select{width:100%;padding:7px;border:1px solid var(--border);border-radius:6px;font-size:11px}.note{font-size:12px;color:var(--muted);line-height:2}.buttonrow{display:flex;gap:9px;justify-content:flex-end;flex-wrap:wrap;padding-top:14px}.exportCard{padding:23px;margin-bottom:14px}.exportCard h3{margin-top:0}.toast{position:fixed;left:22px;bottom:20px;background:#173e45;color:white;border-radius:10px;padding:14px;max-width:340px;display:none;z-index:2}#printArea{display:none}@media(max-width:980px){.layout{grid-template-columns:1fr}.sidebar{flex-direction:row;align-items:center;flex-wrap:wrap;padding:12px}.brand{font-size:20px}.tag,.hintSide{display:none}.nav{padding:9px 12px}.main{padding:18px}.metaGrid,.metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.rowForm,.rowForm.payment{grid-template-columns:repeat(2,minmax(0,1fr))}.rowForm .field:first-child{grid-column:1/-1}.rowForm button{grid-column:1/-1}}@media(max-width:520px){h1{font-size:22px}.metaGrid{grid-template-columns:1fr}.metrics{gap:8px}.metric{padding:12px}.metric strong{font-size:17px}.totals{grid-template-columns:1fr}.head{padding:14px}}@media print{@page{size:A4;margin:14mm}body{background:white;color:#172c37;font:12px Tahoma,Arial,sans-serif}.layout,.toast{display:none!important}#printArea{display:block!important}.printTitle{text-align:center;border-bottom:3px solid #117d79;padding-bottom:17px}.printTitle h1{font:700 27px Georgia,serif;margin:0 0 9px}.printTitle h2{margin:0;font-size:17px}.printMeta{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:20px 0}.printMeta div{line-height:2}.printSection{margin-top:22px;break-inside:avoid-page}.printSection h3{font-size:15px}.printTable{border-collapse:collapse;width:100%;font-size:11px}.printTable td,.printTable th{border:1px solid #cfdcdd;padding:8px;text-align:right}.printTable th{background:#eaf4f2}.printSummary{margin:22px 0 0 auto;max-width:400px}.printSummary div{display:flex;justify-content:space-between;padding:9px;border-bottom:1px solid #cfdcdd}.printSummary .final{font-size:15px;font-weight:800;background:#eaf4f2}}
+
+/* Mobile-first refinements (preserves desktop layout and print formatting) */
+html,body{max-width:100%;overflow-x:clip}
+.layout,.main,.panel,.card,.top,.top>div,.field{min-width:0}
+.navLinks{display:flex;flex-direction:column;gap:11px}
+button,.btn{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
+@media (max-width:980px){
+  .sidebar{position:sticky;top:0;z-index:20;display:grid;grid-template-columns:minmax(0,1fr);gap:7px;padding:11px 14px 9px;box-shadow:0 5px 16px #122a3822}
+  .sidebar .brand{margin:0 3px;font-size:21px;line-height:1.5}
+  .navLinks{display:flex;flex-direction:row;gap:7px;overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:none;scroll-snap-type:x proximity;padding:2px 0 4px}
+  .navLinks::-webkit-scrollbar{display:none}
+  .nav{white-space:nowrap;flex:0 0 auto;padding:9px 13px;scroll-snap-align:start;font-size:12px}
+  .main{padding:16px;max-width:100%}
+  .metric strong{overflow-wrap:anywhere;white-space:normal;line-height:1.35;font-variant-numeric:tabular-nums}
+}
+@media(max-width:600px){
+  body{font-size:13px}
+  .main{padding:12px}
+  .top{display:block;margin-bottom:14px}
+  .top h1{font-size:21px}
+  .eyebrow{font-size:9px;letter-spacing:.4px}
+  .top .sub{font-size:11px}
+  .actions{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:7px;margin-top:13px}
+  .actions .btn{min-width:0;padding:10px 5px;font-size:11px;white-space:normal}
+  .notice{padding:11px 12px;font-size:11px;line-height:1.85}
+  .meta{padding:14px;margin-bottom:12px}
+  .metaGrid{grid-template-columns:1fr;gap:11px}
+  .metrics{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-bottom:12px}
+  .metric{min-width:0;min-height:90px;padding:12px;border-right-width:3px}
+  .metric small{font-size:10px;display:block;line-height:1.5}
+  .metric strong{font-size:clamp(14px,4.2vw,20px);margin-top:9px;letter-spacing:-.3px}
+  .panel{margin-bottom:12px}
+  .head{padding:13px;align-items:stretch;gap:10px}
+  .head h2{font-size:15px}
+  .head .btn{width:100%;padding:10px}
+  .head p{font-size:11px}
+  .panelBody{padding:13px}
+  .rowForm,.rowForm.payment{display:grid;grid-template-columns:1fr 1fr;gap:11px}
+  .rowForm .field:first-child,.rowForm .field:nth-child(4),.rowForm button{grid-column:1/-1}
+  .rowForm .field input,.rowForm .field select,.field input{font-size:16px;min-height:43px}
+  .rowForm button{min-height:45px}
+  .field label{line-height:1.6}
+  .tableWrap{overflow:visible;padding:4px 12px 12px}
+  .table{min-width:0;width:100%;display:block;border:0}
+  .table thead{display:none}
+  .table tbody{display:grid;gap:9px}
+  .table tr{display:grid;grid-template-columns:1fr 1fr;gap:0 12px;padding:10px 12px;border:1px solid var(--border);border-radius:11px;background:#fff;min-width:0}
+  .table td{display:flex;flex-direction:column;gap:3px;min-width:0;border:0;padding:6px 0;text-align:right;overflow-wrap:anywhere;font-size:12px}
+  .table td::before{content:attr(data-label);font-size:10px;font-weight:700;color:var(--muted)}
+  .table td:nth-child(2){grid-column:1/-1;font-weight:700}
+  .table td.amount{font-size:13px;color:var(--teal);white-space:normal}
+  .table td:last-child:not(.empty){grid-column:1/-1}
+  .table td:last-child:not(.empty) .btn{margin:3px 0 3px 6px}
+  .table td.empty{grid-column:1/-1;text-align:center;display:block;padding:18px}
+  .table td.empty::before{display:none}
+  .fee{align-items:flex-start;gap:10px}
+  .fee label{flex:1;line-height:1.8}
+  .fee .field{width:100%;max-width:100%}
+  .totals{grid-template-columns:1fr;gap:0}
+  .totalrow{align-items:center;font-size:11px;line-height:1.6}
+  .totalrow b{white-space:normal;overflow-wrap:anywhere;text-align:left}
+  .importZone{padding:15px 10px}
+  .importZone input{width:100%;font-size:12px}
+  .importReview{max-width:100%;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  .review{min-width:680px}
+  .buttonrow .btn,.exportCard .btn{width:100%;white-space:normal}
+  .exportCard{padding:16px}
+  .exportCard h3{font-size:15px}
+  .footerbar{padding:11px 13px;line-height:1.8}
+  .toast{left:10px;right:10px;bottom:12px;max-width:none;z-index:40;font-size:12px}
+}
+@media(max-width:370px){
+  .main{padding:9px}
+  .actions{grid-template-columns:1fr 1fr}
+  .actions .btn:first-child{grid-column:1/-1}
+  .rowForm,.rowForm.payment{grid-template-columns:1fr}
+  .rowForm .field{grid-column:1/-1}
+}
+@media print{
+  html,body{overflow:visible!important;max-width:none!important}
+  .sidebar,.navLinks{display:none!important}
+}
+</style></head><body>
+<div class="layout"><aside class="sidebar"><div class="brand">Heba Glloria</div><div class="tag">INTERIOR PROJECT BILLING</div><nav class="navLinks" aria-label="أقسام الموقع"><button class="nav active" data-view="invoice">◫ الفاتورة الحالية</button><button class="nav" data-view="expenses">▤ المصروفات</button><button class="nav" data-view="payments">◉ دفعات العميل</button><button class="nav" data-view="import">↑ استكمال فاتورة</button><button class="nav" data-view="export">↓ إصدار الفاتورة</button></nav><div class="hintSide">لا يتم حفظ البيانات على الموقع. احفظي ملف Excel قبل إغلاق الصفحة، وارفعيه لاحقًا لاستكمال نفس الفاتورة.</div></aside>
+<main class="main"><header class="top"><div><div class="eyebrow">HEBA GLLORIA • FINANCIAL STATEMENT</div><h1 id="viewTitle">كشف حساب التشطيبات</h1><div class="sub">فواتير واضحة ومحدثة، بدون حسابات أو إدارة مشاريع أو تخزين على الموقع.</div></div><div class="actions"><button class="btn soft" id="topImport">↑ استكمال ملف سابق</button><button class="btn" id="topExcel">↓ Excel</button><button class="btn primary" id="topPdf">▣ PDF</button></div></header>
+<div class="notice"><b>مهم:</b> هذه الصفحة لا تحفظ الفاتورة تلقائيًا. قبل إغلاقها أو تحديثها، اضغطي «تنزيل Excel». ويمكنك رفع ملف Excel الناتج لاستكمال العمل من الموبايل أو الكمبيوتر. ملف PDF مخصص أساسًا للمشاركة والطباعة، واستيراده يحتاج مراجعة دقيقة.</div>
+<section class="card meta"><div class="metaGrid"><div class="field"><label>اسم المشروع / الشقة</label><input id="projectName" placeholder="مثال: تشطيب شقة التجمع"></div><div class="field"><label>اسم العميل</label><input id="clientName" placeholder="اسم صاحب الشقة"></div><div class="field"><label>موقع المشروع (اختياري)</label><input id="projectLocation" placeholder="المنطقة / العنوان"></div><div class="field"><label>تاريخ إصدار الكشف (اختياري)</label><input id="invoiceDate" type="date"></div></div></section>
+<div class="metrics"><div class="card metric"><small>إجمالي المصروفات</small><strong id="expenseTotal">0 ج.م</strong></div><div class="card metric"><small>إجمالي دفعات العميل</small><strong id="paymentTotal">0 ج.م</strong></div><div class="card metric"><small>الأتعاب الهندسية</small><strong id="feeTotal">0 ج.م</strong></div><div class="card metric"><small id="balanceLabel">المتبقي على العميل</small><strong id="balanceTotal">0 ج.م</strong></div></div>
+<section class="view active" id="view-invoice"><div class="card panel"><div class="head"><div><h2>المصروفات</h2><p>كل ما تم صرفه على التشطيبات والمشتريات والأعمال.</p></div><button class="btn small" data-view="expenses">فتح دفتر المصروفات</button></div><div class="tableWrap" id="expensePreview"></div></div><div class="card panel"><div class="head"><div><h2>دفعات العميل</h2><p>المبالغ المستلمة وطريقة الدفع وتاريخها الاختياري.</p></div><button class="btn small" data-view="payments">فتح سجل الدفعات</button></div><div class="tableWrap" id="paymentPreview"></div></div><div class="card panel"><div class="head"><h2>الأتعاب الهندسية</h2></div><div class="panelBody"><div class="fee"><input id="feeEnabled" type="checkbox"><label for="feeEnabled"><b>إضافة نسبة الأتعاب إلى الحساب</b></label><div class="field" id="feeInputBox" style="display:none"><label>نسبة الأتعاب %</label><input type="number" min="0" max="100" step="0.1" id="feePercent" value="10"></div></div><p class="note">الأتعاب = النسبة × إجمالي المصروفات. ولن تُضاف إذا لم تفعّلي هذا الخيار.</p></div></div><div class="card panel"><div class="head"><h2>الملخص المالي</h2></div><div class="panelBody"><div class="totals" id="totalDetails"></div></div></div></section>
+<section class="view" id="view-expenses"><div class="card panel"><div class="head"><div><h2>دفتر المصروفات</h2><p>سجّلي كل عملية شراء أو مصروف على الشقة.</p></div></div><div class="panelBody"><form id="expenseForm" class="rowForm"><div class="field"><label>وصف المصروف *</label><input name="description" required placeholder="مثال: 10 شكاير أسمنت"></div><div class="field"><label>المبلغ (ج.م) *</label><input name="amount" type="number" min="0.01" step="0.01" required placeholder="200"></div><div class="field"><label>التاريخ (اختياري)</label><input name="date" type="date"></div><div class="field"><label>ملاحظات (اختياري)</label><input name="note" placeholder="كاش / المورد / توضيح"></div><button class="btn primary" type="submit" id="expenseSubmit">＋ إضافة</button></form></div><div class="tableWrap" id="expenseTable"></div><div class="footerbar">للتعديل اضغطي «تعديل» على البند؛ وللحفاظ على التعديلات نزّلي Excel.</div></div></section>
+<section class="view" id="view-payments"><div class="card panel"><div class="head"><div><h2>سجل دفعات العميل</h2><p>منفصل تمامًا عن المصروفات.</p></div></div><div class="panelBody"><form id="paymentForm" class="rowForm payment"><div class="field"><label>بيان الدفعة *</label><input name="description" required placeholder="مثال: الدفعة الأولى"></div><div class="field"><label>قيمة الدفعة (ج.م) *</label><input name="amount" type="number" min="0.01" step="0.01" required placeholder="25000"></div><div class="field"><label>التاريخ (اختياري)</label><input name="date" type="date"></div><div class="field"><label>طريقة الدفع</label><select name="note"><option value="">غير محددة</option><option>نقدًا</option><option>تحويل بنكي</option><option>إنستاباي</option><option>محفظة إلكترونية</option><option>شيك</option><option>أخرى</option></select></div><button class="btn primary" type="submit" id="paymentSubmit">＋ تسجيل</button></form></div><div class="tableWrap" id="paymentTable"></div></div></section>
+<section class="view" id="view-import"><div class="card panel"><div class="head"><div><h2>استكمال فاتورة سابقة</h2><p>ارفعي الملف القديم بدلًا من إعادة كتابة البنود يدويًا.</p></div></div><div class="panelBody"><div class="importZone"><b>اختاري فاتورة محفوظة</b><p class="note">الأفضل ملف Excel صادر من Heba Glloria — يستعيد البيانات والتفاصيل ونسبة الأتعاب بدقة.</p><input type="file" id="importFile" accept=".xlsx,.xls,.csv,.pdf"><p class="note">يدعم كذلك CSV وPDF النصي (قراءة PDF تجريبية وقد لا تتعرف على جميع البنود؛ الصور الممسوحة غير مدعومة).</p></div><div id="importStatus" class="note" style="margin-top:15px"></div><div class="importReview" id="importReview"></div><div class="buttonrow"><button class="btn primary" id="applyImport" style="display:none">اعتماد الفاتورة واستبدال البيانات الحالية</button></div><p class="note">لن تُستبدل الفاتورة الحالية إلا بعد مراجعة البيانات والضغط على اعتماد. راجعي الأرقام قبل اعتماد أي استيراد، خصوصًا PDF.</p></div></div></section>
+<section class="view" id="view-export"><div class="card exportCard"><h3>تنزيل الفاتورة بصيغة Excel</h3><p class="note">ملفك الأساسي لاستكمال العمل مستقبلًا. يحتوي على بيانات العميل، مصروفات الشقة، الدفعات، نسبة الأتعاب والملخص المالي.</p><button class="btn primary" id="excelBtn">↓ تنزيل Excel قابل للاستكمال</button></div><div class="card exportCard"><h3>فاتورة احترافية بصيغة PDF</h3><p class="note">لإرسال كشف حساب منسّق للعميل. ستفتح الطباعة، ثم اختاري «حفظ بتنسيق PDF» من الهاتف أو الكمبيوتر. احتفظي بملف Excel كذلك للاستكمال الآمن.</p><button class="btn" id="pdfBtn">▣ طباعة / حفظ PDF</button></div><div class="card exportCard"><h3>بدء فاتورة جديدة</h3><p class="note">امسحي بيانات الفاتورة الحالية فقط بعد التأكد من تنزيل نسخة Excel.</p><button class="btn danger" id="resetBtn">＋ فاتورة جديدة فارغة</button></div></section>
+<div class="sub" style="text-align:center;margin-top:25px">Heba Glloria • Interior Projects & Financial Statements</div></main></div><div id="toast" class="toast"></div><div id="printArea"></div><script src="app.js" defer></script></body></html>
